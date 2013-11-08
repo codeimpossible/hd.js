@@ -9,12 +9,14 @@ Do your coworkers often mistake your javascript code for a rorschach test? Perha
 
 You my friend need HDJS. HDJS, High Definition JavaScript brings the _awesome_ clarity of High Definition TV to your busted javascript code. Just take a look at these stunning before and after pictures:
 
-## Code Without the benefits of HDJS
+### Code Without the benefits of HDJS
 ![without HDJS](https://raw.github.com/codeimpossible/hd.js/master/without-hd-js.png)
 
-## Code After a Liberal Application of HDJS
+### Code After a Liberal Application of HDJS
 ![with HDJS](https://raw.github.com/codeimpossible/hd.js/master/with-hd-js.png)
+_Wow! Look at that clarity!!!_
 
+### Testimonials
 Still don't believe that HDJS can make your code shine with the brightness of a small dwarf star? Don't take our word for it, read some of what our other users have been saying about HDJS.
 
 > "after installing hd.js and applying the 3d extension, my co-workers are ready to commit me to a mental asylum because i'm literally trying to touch my own code"
