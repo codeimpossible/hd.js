@@ -18,16 +18,25 @@ You my friend need HDJS. HDJS, High Definition JavaScript brings the _awesome_ c
 Still don't believe that HDJS can make your code shine with the brightness of a small dwarf star? Don't take our word for it, read some of what our other users have been saying about HDJS.
 
 > "after installing hd.js and applying the 3d extension, my co-workers are ready to commit me to a mental asylum because i'm literally trying to touch my own code"
-> - Eddie Gordo
+
+\- Eddie Gordo
+ 
 
 > "after using hd.js for a while, javascript is the only thing i can see clearly.  I almost crashed on the drive home because I couldn't read the traffic signs"
-> - Alan Smithee
+
+\- Alan Smithee
+ 
 
 > "using hd.js is like coding in an IMAX theater all to yourself"
-> - Currer Bell
+
+\- Currer Bell
+ 
 
 > "hd.js is like lasik eye surgery for my scripts"
-> - John Lange
+
+\- John Lange
+ 
 
 > "before I used hd.js, I felt like I was wearing my grandma's glasses.  now I have 20/20 coding vision"
-> - Paul French
+
+\- Paul French
