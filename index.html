@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<style>
+		.blurry {
+		  color: hsla(0,0%,0%,0);
+		  text-shadow: #fff 0 0 5px;
+		  transition: text-shadow 1s cubic-bezier(0, 0.75, 0, 1);
+		}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>HD.js</h1>
+					<h3>High Definition JavaScript</h3>
+					<p>
+						<small>Created by <a href="http://codeimpossible.com">Jared Barboza</a> / <a href="http://twitter.com/codeimpossible">@codeimpossible</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Why HD?</h2>
+					<p>
+						Is your code too <span class="blurry">blurry</span>? Do your coworkers often mistake your javascript code for a rorschach test? Perhaps one of those magic pictures?
+					</p>
+				</section>
+
+				<section>
+					<h2>No. That has never happened to anyone ever.</h2>
+					<p>
+						High Definition JavaScript brings the awesome clarity of High Definition TV to your busted javascript code. Just take a look at the stunning before and after pictures.
+					</p>
+				</section>
+
+				<section>
+					<h2>Are you... do you think this is useful? No one would use this!</h2>
+					<p>
+						Thats fantastic! Here's a picture of code <strong>without</strong> HDJS!
+					</p>
+					<img src="https://github.com/codeimpossible/hd.js/raw/master/without-hd-js.png" />
+				</section>
+
+				<section>
+					<h2>What? That's just a photoshopped picture of Sublime Text!</h2>
+					<p>
+						Is it then? Well, take a gander at <big>THIS</big>!
+					</p>
+					<img src="https://github.com/codeimpossible/hd.js/raw/master/with-hd-js.png" />
+					<p>
+						I see you're dumbstruck by the splendor that is HDJS.
+					</p>
+				</section>
+
+				<section>
+					<h2>I'm actually just looking for anyone else to make eye contact with me...</h2>
+					<p>
+						A great point, and I'm proud to say we are now 100% compatible with retina displays. Have a look at our newly released HDJS: RETINA
+					</p>
+					<img src="https://github.com/codeimpossible/hd.js/raw/master/with-hd-js-retina.png" />
+				</section>
+
+				<section>
+					<h2>Now I'm certain you're not listening to me.</h2>
+					<p>
+						*chuckle* Glad you're excited. But don't take my word for it.
+					</p>
+				</section>
+
+				<section>
+					<h2>Oh no.</h2>
+					<p>
+						Have a look at what some of our other very satisfied customers are saying about HDJS.
+					</p>
+				</section>
+
+				<section>
+					<h2>I hate you.</h2>
+					<p>
+						<blockquote>"after installing hd.js and applying the 3d extension, my co-workers are ready to commit me to a mental asylum because i'm literally trying to touch my own code"</blockquote>
+						- Eddie Gordo
+					</p>
+				</section>
+
+				<section>
+					<h2>Do... Do I just, like, get up and leave? Can I do that?</h2>
+					<p>
+						<blockquote>"after using hd.js for a while, javascript is the only thing i can see clearly. I almost crashed on the drive home because I couldn't read the traffic signs"</blockquote>
+						- Alan Smithee
+					</p>
+				</section>
+
+				<section>
+					<h2>*sigh*</h2>
+					<p>
+						<blockquote>"using hd.js is like coding in an IMAX theater all to yourself"</blockquote>
+						- Currer Bell
+					</p>
+				</section>
+
+				<section>
+					<h2>Look, if you're going to insist on reading these to me, at least stop staring at me.</h2>
+					<p>
+						<blockquote>"hd.js is like lasik eye surgery for my scripts"</blockquote>
+						- John Lange
+					</p>
+				</section>
+
+				<section>
+					<h2>Sir. Sir. SIR! I'm sorry, this product is not for me. Good day to you.</h2>
+					<p>
+						<blockquote>"before I used hd.js, I felt like I was wearing my grandma's glasses. now I have 20/20 coding vision"</blockquote>
+						- Paul French
+					</p>
+				</section>
+
+				<section>
+					<h1>FINIS</h1>
+					<h3>BY Jared Barboza / @codeimpossible</h3>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
